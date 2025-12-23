@@ -19,12 +19,12 @@
 library(readr)     # for read_csv()
 library(dplyr)     # for data wrangling
 library(ggplot2)   # for plots
-
+library(tidyr)
 # --- 2. Load data -----------------------------------------
 # Make sure the CSV file is in the same folder as this script,
 # or change the path below to where the file is stored.
 
-quakes <- read.csv("C:\Users\DELL\Downloads\Japan earthquakes 2001 - 2018.csv")
+quakes <- read.csv("C:\\Users\\jeeta\\Desktop\\HERTFORDSHIRE UNIVERSITY\\team research and development\\archive (3)\\Japan earthquakes 2001 - 2018.csv")
 
 # --- 3. Select variables and handle missing values --------
 
